@@ -53,6 +53,9 @@ li{
     color:white;
     margin-top:20px;
     border-radius: 5px;
+    border:0px;
+    height: 35px;
+    width: 120px;
 }
 
 .placeholder{
@@ -147,5 +150,24 @@ margin-left:30px;
     align-items: center;
     border-radius: 8px;
     
+}
+
+.button-two{
+    border:2px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color:white;
+    width: 100px;
+    height: 35px;
+}
+
+.footer{
+    background-color:#1F2937;
+    display: flex;
+    height:110px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    margin-top:-120px;
 }
 
