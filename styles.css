@@ -128,3 +128,24 @@ margin-left:30px;
     font-weight: bold;
 }
 
+.white-box{
+    height: 200px;
+    width: auto;
+    padding:50px;
+    padding-left:400px;
+    padding-right:400px;
+    
+    
+    
+}
+.blue-box{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    background-color: #3882F6;
+    height: 100px;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+
