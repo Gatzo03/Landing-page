@@ -1,12 +1,17 @@
 *{
    box-sizing: border-box; 
 }
-
+body{
+    padding:0px;
+    margin:0px;
+}
 .first-part{
     display:flex;
     justify-content: space-around;
     background: #1F2937;
     padding:24px;
+    
+    
     
 }
 
