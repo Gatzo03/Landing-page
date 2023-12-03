@@ -1,14 +1,9 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
+
 
 .first-part{
     display:flex;
     justify-content: space-around;
-    background-color: #1F2937;
+    background: #1F2937;
     padding:24px;
 }
 
@@ -71,7 +66,40 @@ li{
     justify-content: center;
     margin-bottom:100px;
     margin-top:100px;
-   
+
+    
+
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    font-size:30px;
+    font-weight: 700;
+}
+
+.bluebox{
+    height:200px;
+    width: 200px;
+    border:4px solid rgb(0, 136, 255)
+
+}
+
+.squares{
+    display: flex;
+    gap:30px;
+    justify-content:center;
+}
+
+.text{
+width: 150px;
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-left:30px;
 
 }
 
