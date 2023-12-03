@@ -1,10 +1,13 @@
-
+*{
+   box-sizing: border-box; 
+}
 
 .first-part{
     display:flex;
     justify-content: space-around;
     background: #1F2937;
     padding:24px;
+    
 }
 
 ul{
@@ -61,15 +64,16 @@ li{
 .placeholder{
     color:white;
     margin-top:190px;
-    margin-left:50px;
-    width: 500px;
+    margin-left:85px;
+    width: 350px;
     height: 200px;
-    background-color: grey;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom:100px;
     margin-top:100px;
+    flex:auto;
 
     
 
@@ -149,6 +153,8 @@ margin-left:30px;
     height: 100px;
     align-items: center;
     border-radius: 8px;
+    padding-left:20px;
+    padding-right:20px;
     
 }
 
@@ -168,6 +174,18 @@ margin-left:30px;
     color:white;
     justify-content: center;
     align-items: center;
-    margin-top:-120px;
+    margin-top:20px;
+}
+
+.dacancellare{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img{
+    height:193px;
+    width:193px;
+    border-radius: 20px;
 }
 
